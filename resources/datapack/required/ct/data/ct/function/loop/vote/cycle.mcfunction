@@ -1,4 +1,4 @@
-execute as @e[type=minecraft:marker] if score @s id = current vote run rotate @e[tag=clock_arm,limit=1] facing entity @s
+execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id = current vote run rotate @e[tag=clock_arm,limit=1] facing entity @s
 execute as @a if score @s id = current vote run function ct:loop/vote/take_vote
 execute as @a at @s run playsound ct:clocktower.tick voice @s
 execute if score current vote <= player_count game_data run scoreboard players add current vote 1

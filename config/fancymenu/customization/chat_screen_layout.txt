@@ -2,14 +2,14 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = chat_screen
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1770780490580
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1771213549405
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cddb4f4e-1975-4f66-88de-750ad22b00a8-1770780236909] = [groups:][instances:]
+  [loading_requirement_container_meta:ea0e7014-8c27-412a-9ceb-91fa11cd0e91-1771213249802] = [groups:][instances:]
 }
 
 customization {

@@ -314,36 +314,6 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      152,
-                      65,
-                      85
-                    ],
-                    "dimension": "minecraft:overworld"
-                  },
-                  "tracked": false
-                }
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "team": "11_lavender"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:lodestone_tracker": {
-                  "target": {
-                    "pos": [
                       169,
                       65,
                       89
@@ -361,7 +331,37 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "12_magenta"
+                        "team": "12_lavender"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lodestone_tracker": {
+                  "target": {
+                    "pos": [
+                      152,
+                      65,
+                      85
+                    ],
+                    "dimension": "minecraft:overworld"
+                  },
+                  "tracked": false
+                }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "team": "11_magenta"
                       }
                     }
                   ]

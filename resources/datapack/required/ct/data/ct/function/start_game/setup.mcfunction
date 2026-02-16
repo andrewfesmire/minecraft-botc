@@ -14,13 +14,13 @@ team join 07_cyan @r[team=,tag=!storyteller,tag=!spectator]
 team join 08_blue @r[team=,tag=!storyteller,tag=!spectator]
 team join 09_navy @r[team=,tag=!storyteller,tag=!spectator]
 team join 10_purple @r[team=,tag=!storyteller,tag=!spectator]
-team join 11_lavender @r[team=,tag=!storyteller,tag=!spectator]
-team join 12_magenta @r[team=,tag=!storyteller,tag=!spectator]
+team join 11_magenta @r[team=,tag=!storyteller,tag=!spectator]
+team join 12_lavender @r[team=,tag=!storyteller,tag=!spectator]
 team join 13_white @r[team=,tag=!storyteller,tag=!spectator]
 team join 14_gray @r[team=,tag=!storyteller,tag=!spectator]
 team join 15_black @r[team=,tag=!storyteller,tag=!spectator]
 
-function ct:util/disable_colors
+function ct:util/color_names
 
 data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
 data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
@@ -32,8 +32,8 @@ data modify block 128 72 57 front_text.messages[1] set value {"selector":"@a[tea
 data modify block 131 72 58 front_text.messages[1] set value {"selector":"@a[team=08_blue]"}
 data modify block 132 72 59 front_text.messages[1] set value {"selector":"@a[team=09_navy]"}
 data modify block 133 72 62 front_text.messages[1] set value {"selector":"@a[team=10_purple]"}
-data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_lavender]"}
-data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_magenta]"}
+data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_magenta]"}
+data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_lavender]"}
 data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[team=13_white]"}
 data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
 data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
@@ -72,7 +72,7 @@ execute unless data block 131 72 69 front_text.messages[1].text run data modify 
 execute unless data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
 execute unless data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
 
-function ct:util/enable_colors
+function ct:util/color_prefixes
 
 scoreboard players set @a[team=01_red] id 1
 scoreboard players set @a[team=02_orange] id 2
@@ -84,8 +84,8 @@ scoreboard players set @a[team=07_cyan] id 7
 scoreboard players set @a[team=08_blue] id 8
 scoreboard players set @a[team=09_navy] id 9
 scoreboard players set @a[team=10_purple] id 10
-scoreboard players set @a[team=11_lavender] id 11
-scoreboard players set @a[team=12_magenta] id 12
+scoreboard players set @a[team=11_magenta] id 11
+scoreboard players set @a[team=12_lavender] id 12
 scoreboard players set @a[team=13_white] id 13
 scoreboard players set @a[team=14_gray] id 14
 scoreboard players set @a[team=15_black] id 15
@@ -100,8 +100,8 @@ execute if score birthday_mode settings matches 1 run item replace entity @a[tea
 execute if score birthday_mode settings matches 1 run item replace entity @a[team=08_blue] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
 execute if score birthday_mode settings matches 1 run item replace entity @a[team=09_navy] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_green"]},minecraft:equippable={slot:"head"},minecraft:item_name="Green Party Hat"]
 execute if score birthday_mode settings matches 1 run item replace entity @a[team=10_purple] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_light_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Light Blue Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_lavender] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
+execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
+execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_lavender] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]
 
 execute if score birthday_mode settings matches 1 run item replace entity @a[tag=storyteller] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
 execute if score birthday_mode settings matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]

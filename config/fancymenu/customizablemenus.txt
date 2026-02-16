@@ -48,3 +48,9 @@ net.minecraft.class_424 {
 net.minecraft.class_435 {
 }
 
+net.minecraft.class_524 {
+}
+
+net.minecraft.class_422 {
+}
+

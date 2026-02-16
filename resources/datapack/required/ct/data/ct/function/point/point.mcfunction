@@ -11,4 +11,7 @@ $execute as $(target) if entity @s[scores={id=9}] run scoreboard players set $(p
 $execute as $(target) if entity @s[scores={id=10}] run scoreboard players set $(pointer) pointing_at 10
 $execute as $(target) if entity @s[scores={id=11}] run scoreboard players set $(pointer) pointing_at 11
 $execute as $(target) if entity @s[scores={id=12}] run scoreboard players set $(pointer) pointing_at 12
+$execute as $(target) if entity @s[scores={id=13}] run scoreboard players set $(pointer) pointing_at 13
+$execute as $(target) if entity @s[scores={id=14}] run scoreboard players set $(pointer) pointing_at 14
+$execute as $(target) if entity @s[scores={id=15}] run scoreboard players set $(pointer) pointing_at 15
 $execute as $(target) if entity @s[team=99_storyteller] run tellraw $(pointer) "Pointing at a Storyteller will not change your target."

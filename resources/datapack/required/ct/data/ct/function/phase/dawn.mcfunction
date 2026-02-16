@@ -15,8 +15,8 @@ team modify 07_cyan nametagVisibility always
 team modify 08_blue nametagVisibility always
 team modify 09_navy nametagVisibility always
 team modify 10_purple nametagVisibility always
-team modify 11_lavender nametagVisibility always
-team modify 12_magenta nametagVisibility always
+team modify 11_magenta nametagVisibility always
+team modify 12_lavender nametagVisibility always
 team modify 13_white nametagVisibility always
 team modify 14_gray nametagVisibility always
 team modify 15_black nametagVisibility always

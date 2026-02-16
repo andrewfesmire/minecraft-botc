@@ -1,4 +1,4 @@
-execute if entity @a[tag=!storyteller,tag=!in_house] run title @a[tag=storyteller] actionbar [{"selector": "@a[tag=!storyteller,tag=!in_house]"},{"text":" are not in a house.","color":"red"}]
+execute if entity @a[tag=!storyteller,tag=!in_house,tag=!spectator] run title @a[tag=storyteller] actionbar [{"selector": "@a[tag=!storyteller,tag=!in_house,tag=!spectator]"},{"text":" are not in a house.","color":"red"}]
 execute unless entity @a[tag=!storyteller,tag=!in_house] unless entity @a[tag=requesting_chat] run title @a[tag=storyteller] actionbar [{"text":"All players are in a house.","color":"green"}]
 execute store result score growl game_data run random value 0..3000
 execute if score growl game_data matches 1 if score current_day game_data matches 2.. as @r[tag=!storyteller,tag=!spectator] at @s run playsound ct:clocktower.night.ambient voice @a ~ ~ ~10
@@ -48,15 +48,15 @@ particle minecraft:dust{scale:4,color:0} 182.50 73.00 59.47 0 0.5 0.3 1 3 normal
 particle minecraft:dust{scale:4,color:0} 182.50 76.00 63.49 0 0.5 0.3 1 3 normal @a[tag=in_house,team=10_purple]
 
 # Magenta
-particle minecraft:dust{scale:4,color:0} 152.50 72.00 85.19 0.3 0.5 0 1 3 normal @a[tag=in_house,team=11_lavender]
-particle minecraft:dust{scale:4,color:0} 157.48 72.65 84.50 0.3 0.5 0 1 2 normal @a[tag=in_house,team=11_lavender]
-particle minecraft:dust{scale:4,color:0} 149.50 72.60 82.63 0 0.5 0.3 1 2 normal @a[tag=in_house,team=11_lavender]
-particle minecraft:dust{scale:4,color:0} 152.48 75.12 85.60 0 0.5 0.3 1 2 normal @a[tag=in_house,team=11_lavender]
+particle minecraft:dust{scale:4,color:0} 152.50 72.00 85.19 0.3 0.5 0 1 3 normal @a[tag=in_house,team=11_magenta]
+particle minecraft:dust{scale:4,color:0} 157.48 72.65 84.50 0.3 0.5 0 1 2 normal @a[tag=in_house,team=11_magenta]
+particle minecraft:dust{scale:4,color:0} 149.50 72.60 82.63 0 0.5 0.3 1 2 normal @a[tag=in_house,team=11_magenta]
+particle minecraft:dust{scale:4,color:0} 152.48 75.12 85.60 0 0.5 0.3 1 2 normal @a[tag=in_house,team=11_magenta]
 
 # Lavender
-particle minecraft:dust{scale:4,color:0} 170.00 72.01 89.19 1 0.5 0 1 5 normal @a[tag=in_house,team=12_magenta]
-particle minecraft:dust{scale:4,color:0} 167.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[tag=in_house,team=12_magenta]
-particle minecraft:dust{scale:4,color:0} 172.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[tag=in_house,team=12_magenta]
+particle minecraft:dust{scale:4,color:0} 170.00 72.01 89.19 1 0.5 0 1 5 normal @a[tag=in_house,team=12_lavender]
+particle minecraft:dust{scale:4,color:0} 167.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[tag=in_house,team=12_lavender]
+particle minecraft:dust{scale:4,color:0} 172.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[tag=in_house,team=12_lavender]
 
 # White
 particle minecraft:dust{scale:4,color:0} 179.81 73.01 97.50 0 0.5 0.3 1 3 normal @a[tag=in_house,team=13_white]

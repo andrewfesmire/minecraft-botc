@@ -1,15 +1,15 @@
-tp @a[team=01_red] @e[type=minecraft:marker,tag=red_chair,limit=1]
-tp @a[team=02_orange] @e[type=minecraft:marker,tag=orange_chair,limit=1]
-tp @a[team=03_yellow] @e[type=minecraft:marker,tag=yellow_chair,limit=1]
-tp @a[team=04_lime] @e[type=minecraft:marker,tag=lime_chair,limit=1]
-tp @a[team=05_green] @e[type=minecraft:marker,tag=green_chair,limit=1]
-tp @a[team=06_mint] @e[type=minecraft:marker,tag=mint_chair,limit=1]
-tp @a[team=07_cyan] @e[type=minecraft:marker,tag=cyan_chair,limit=1]
-tp @a[team=08_blue] @e[type=minecraft:marker,tag=blue_chair,limit=1]
-tp @a[team=09_navy] @e[type=minecraft:marker,tag=navy_chair,limit=1]
-tp @a[team=10_purple] @e[type=minecraft:marker,tag=purple_chair,limit=1]
-tp @a[team=11_lavender] @e[type=minecraft:marker,tag=lavender_chair,limit=1]
-tp @a[team=12_magenta] @e[type=minecraft:marker,tag=magenta_chair,limit=1]
-tp @a[team=13_white] @e[type=minecraft:marker,tag=white_chair,limit=1]
-tp @a[team=14_gray] @e[type=minecraft:marker,tag=gray_chair,limit=1]
-tp @a[team=15_black] @e[type=minecraft:marker,tag=black_chair,limit=1]
+tp @a[team=01_red] 120.33 72.50 68.44 241.44 0
+tp @a[team=02_orange] 119.36 72.50 65.40 257.59 0
+tp @a[team=03_yellow] 119.33 72.50 62.54 281.36 0
+tp @a[team=04_lime] 120.51 72.50 59.37 301.08 0
+tp @a[team=05_green] 122.48 72.50 57.47 328.49 0
+tp @a[team=06_mint] 125.49 72.50 56.30 347.96 0
+tp @a[team=07_cyan] 128.58 72.50 56.30 370.41 0
+tp @a[team=08_blue] 131.58 72.50 57.41 393.68 0
+tp @a[team=09_navy] 133.70 72.50 59.55 416.96 0
+tp @a[team=10_purple] 134.63 72.50 62.67 439.65 0
+tp @a[team=11_magenta] 134.70 72.50 65.44 461.60 0
+tp @a[team=12_lavender] 133.70 72.50 68.49 482.81 0
+tp @a[team=13_white] 131.52 72.50 70.70 505.51 0
+tp @a[team=14_gray] 128.61 72.50 71.70 528.45 0
+tp @a[team=15_black] 125.68 72.50 71.54 549.33 0

@@ -16,3 +16,6 @@ execute if score @s id matches 9 run data modify entity @e[type=minecraft:item_d
 execute if score @s id matches 10 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=10},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
 execute if score @s id matches 11 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=11},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
 execute if score @s id matches 12 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=12},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s id matches 13 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=13},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s id matches 14 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=14},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute if score @s id matches 15 run data modify entity @e[type=minecraft:item_display,tag=vote_marker,scores={id=15},limit=1] item.components."minecraft:custom_model_data".strings[0] set value "voting_no"

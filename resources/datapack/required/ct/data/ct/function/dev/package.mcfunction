@@ -9,5 +9,6 @@ clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["grim
 gamerule sendCommandFeedback false
 gamerule reducedDebugInfo true
 
+function ct:admin/init/yawp_flags
 tellraw @s {"text":"Packaging Reminders:",bold:true}
 tellraw @s "- Disable Axiom\n- Disable ArmorPoser\n- Disable Carpet"

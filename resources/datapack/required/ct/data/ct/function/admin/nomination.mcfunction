@@ -4,9 +4,9 @@ execute as @a at @s run playsound ct:clocktower.nominate voice @s ~ ~ ~
 item replace entity @a[tag=!expended_ghost,tag=!storyteller] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 item replace entity @a[tag=storyteller] hotbar.5 with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]},custom_name=[{text:"Start Vote",color:"white",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 tag @a[tag=!expended_ghost] add voting_no
-function ct:util/disable_colors
+function ct:util/color_names
 tellraw @a [{"selector":"@a[tag=nominee]"},{"text":" has been nominated for execution.",color:white}]
-function ct:util/enable_colors
+function ct:util/color_prefixes
 
 ## This is stupid
 execute if entity @a[scores={id=1}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=1}] run data modify entity @s view_range set value 1

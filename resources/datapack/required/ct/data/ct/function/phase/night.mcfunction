@@ -19,8 +19,8 @@ team modify 07_cyan nametagVisibility never
 team modify 08_blue nametagVisibility never
 team modify 09_navy nametagVisibility never
 team modify 10_purple nametagVisibility never
-team modify 11_lavender nametagVisibility never
-team modify 12_magenta nametagVisibility never
+team modify 11_magenta nametagVisibility never
+team modify 12_lavender nametagVisibility never
 team modify 13_white nametagVisibility never
 team modify 14_gray nametagVisibility never
 team modify 15_black nametagVisibility never

@@ -10,3 +10,6 @@ execute if entity @a[scores={pointing_at=9}] run tellraw @a [{"selector":"@a[sco
 execute if entity @a[scores={pointing_at=10}] run tellraw @a [{"selector":"@a[scores={pointing_at=10}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=10}]"}]
 execute if entity @a[scores={pointing_at=11}] run tellraw @a [{"selector":"@a[scores={pointing_at=11}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=11}]"}]
 execute if entity @a[scores={pointing_at=12}] run tellraw @a [{"selector":"@a[scores={pointing_at=12}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=12}]"}]
+execute if entity @a[scores={pointing_at=13}] run tellraw @a [{"selector":"@a[scores={pointing_at=12}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=13}]"}]
+execute if entity @a[scores={pointing_at=14}] run tellraw @a [{"selector":"@a[scores={pointing_at=12}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=14}]"}]
+execute if entity @a[scores={pointing_at=15}] run tellraw @a [{"selector":"@a[scores={pointing_at=12}]"},{"text":" is/are pointing at "},{"selector":"@a[scores={id=15}]"}]

@@ -19,6 +19,7 @@ downloads
 crash-reports
 cache
 .fabric
+.mixin_out/
 /datapacks
 /data
 config/axiom

@@ -12,3 +12,7 @@ execute if score phase game_data matches 4 run function ct:loop/night
 
 execute if entity @a[tag=requesting_chat] run title @a[tag=storyteller] actionbar [{"text":"! ","color":"yellow","bold":true},{"selector":"@a[tag=requesting_chat]","bold":false,"color":white},{"text":" is requesting a private chat.","color":"white","bold":false}]
 execute as @a[tag=requesting_chat] run title @s actionbar [{"text":"! ","color":"yellow","bold":true},{"text":" You are currently requesting a Storyteller chat.","color":"white","bold":false}]
+
+scoreboard players set player_count game_data 0
+execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
+execute unless score player_count game_data = stored_player_count game_data run function ct:util/update_game_data
