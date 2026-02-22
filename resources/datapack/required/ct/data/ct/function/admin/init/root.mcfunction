@@ -91,6 +91,7 @@ scoreboard players set current_day game_data 0
 scoreboard objectives add use_carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add role dummy
 scoreboard objectives add id dummy
+scoreboard objectives add house_id dummy
 scoreboard objectives add role_list dummy
 
 scoreboard objectives add settings dummy

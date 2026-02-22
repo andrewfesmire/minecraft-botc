@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-grimoire
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1771300564502
+  last_edited_time = 1771616998046
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:deb2c63c-1938-437b-a6a5-94653ee761ab-1771300065402] = [groups:][instances:]
+  [loading_requirement_container_meta:df630040-750c-4215-af92-e16ea7a139d1-1771616957197] = [groups:][instances:]
 }
 
 customization {
@@ -65,12 +65,13 @@ element {
   fade_out_speed = 1.0
   base_opacity = 0.8
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 1416
+  auto_sizing_base_screen_height = 541
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = -221
-  y = -271
+  anchor_point = element
+  anchor_point_element = b273a3d3-ff53-475a-b3aa-0323367eef0f-1751141896432
+  x = -319
+  y = -254
   width = 697
   height = 535
   stretch_x = false
@@ -10704,12 +10705,12 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2164
   sticky_anchor = false
-  anchor_point = bottom-right
-  x = -382
-  y = -240
+  anchor_point = mid-centered
+  x = 98
+  y = 31
   width = 114
   height = 20
   stretch_x = false

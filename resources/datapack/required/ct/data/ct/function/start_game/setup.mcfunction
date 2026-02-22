@@ -72,6 +72,22 @@ execute unless data block 131 72 69 front_text.messages[1].text run data modify 
 execute unless data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
 execute unless data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
 
+data modify entity @e[tag=house_head,limit=1,scores={house_id=1}] item.components.minecraft:profile.name set from storage ct:players players.p1
+data modify entity @e[tag=house_head,limit=1,scores={house_id=2}] item.components.minecraft:profile.name set from storage ct:players players.p2
+data modify entity @e[tag=house_head,limit=1,scores={house_id=3}] item.components.minecraft:profile.name set from storage ct:players players.p3
+data modify entity @e[tag=house_head,limit=1,scores={house_id=4}] item.components.minecraft:profile.name set from storage ct:players players.p4
+data modify entity @e[tag=house_head,limit=1,scores={house_id=5}] item.components.minecraft:profile.name set from storage ct:players players.p5
+data modify entity @e[tag=house_head,limit=1,scores={house_id=6}] item.components.minecraft:profile.name set from storage ct:players players.p6
+data modify entity @e[tag=house_head,limit=1,scores={house_id=7}] item.components.minecraft:profile.name set from storage ct:players players.p7
+data modify entity @e[tag=house_head,limit=1,scores={house_id=8}] item.components.minecraft:profile.name set from storage ct:players players.p8
+data modify entity @e[tag=house_head,limit=1,scores={house_id=9}] item.components.minecraft:profile.name set from storage ct:players players.p9
+data modify entity @e[tag=house_head,limit=1,scores={house_id=10}] item.components.minecraft:profile.name set from storage ct:players players.p10
+data modify entity @e[tag=house_head,limit=1,scores={house_id=11}] item.components.minecraft:profile.name set from storage ct:players players.p11
+data modify entity @e[tag=house_head,limit=1,scores={house_id=12}] item.components.minecraft:profile.name set from storage ct:players players.p12
+data modify entity @e[tag=house_head,limit=1,scores={house_id=13}] item.components.minecraft:profile.name set from storage ct:players players.p13
+data modify entity @e[tag=house_head,limit=1,scores={house_id=14}] item.components.minecraft:profile.name set from storage ct:players players.p14
+data modify entity @e[tag=house_head,limit=1,scores={house_id=15}] item.components.minecraft:profile.name set from storage ct:players players.p15
+
 function ct:util/color_prefixes
 
 scoreboard players set @a[team=01_red] id 1
@@ -90,21 +106,21 @@ scoreboard players set @a[team=13_white] id 13
 scoreboard players set @a[team=14_gray] id 14
 scoreboard players set @a[team=15_black] id 15
 
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=01_red] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_red"]},minecraft:equippable={slot:"head"},minecraft:item_name="Red Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=02_orange] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_orange"]},minecraft:equippable={slot:"head"},minecraft:item_name="Orange Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=03_yellow] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_yellow"]},minecraft:equippable={slot:"head"},minecraft:item_name="Yellow Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=04_lime] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_lime"]},minecraft:equippable={slot:"head"},minecraft:item_name="Lime Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=05_green] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Blue Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=06_mint] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_purple"]},minecraft:equippable={slot:"head"},minecraft:item_name="Purple Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=07_cyan] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_white"]},minecraft:equippable={slot:"head"},minecraft:item_name="White Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=08_blue] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=09_navy] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_green"]},minecraft:equippable={slot:"head"},minecraft:item_name="Green Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=10_purple] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_light_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Light Blue Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_lavender] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=01_red] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_red"]},minecraft:equippable={slot:"head"},minecraft:item_name="Red Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=02_orange] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_orange"]},minecraft:equippable={slot:"head"},minecraft:item_name="Orange Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=03_yellow] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_yellow"]},minecraft:equippable={slot:"head"},minecraft:item_name="Yellow Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=04_lime] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_lime"]},minecraft:equippable={slot:"head"},minecraft:item_name="Lime Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=05_green] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Blue Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=06_mint] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_purple"]},minecraft:equippable={slot:"head"},minecraft:item_name="Purple Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=07_cyan] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_white"]},minecraft:equippable={slot:"head"},minecraft:item_name="White Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=08_blue] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=09_navy] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_green"]},minecraft:equippable={slot:"head"},minecraft:item_name="Green Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=10_purple] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_light_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Light Blue Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_lavender] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]# 
 
-execute if score birthday_mode settings matches 1 run item replace entity @a[tag=storyteller] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
-execute if score birthday_mode settings matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[tag=storyteller] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]
 
 # execute as @a run scoreboard players operation @s game_data = @s id
 
@@ -122,6 +138,9 @@ execute as @a if score player_count game_data matches 12 run function ct:start_g
 execute as @a if score player_count game_data matches 13 run function ct:start_game/roles/pcount {player:13,town:9,outsider:0,minion:3,demon:1}
 execute as @a if score player_count game_data matches 14 run function ct:start_game/roles/pcount {player:14,town:9,outsider:1,minion:3,demon:1}
 execute as @a if score player_count game_data matches 15 run function ct:start_game/roles/pcount {player:15,town:9,outsider:2,minion:3,demon:1}
+
+execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:item_display,tag=house_head] if score @s house_id <= player_count game_data run data modify entity @s view_range set value 1
 
 clear @a[tag=!storyteller] minecraft:carrot_on_a_stick
 item replace entity @a[tag=!storyteller] hotbar.0 with minecraft:writable_book[minecraft:custom_model_data={strings:["script"]},custom_name=[{text:"Notebook",color:"yellow",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
