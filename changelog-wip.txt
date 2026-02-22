@@ -15,6 +15,9 @@ Fixed bugs:
 - #50: Some commands that should be op-only are not
 - #51: Colors in the Grimoire do not closely match house colors in-game
 - #52: Wiki Links in the Script do not work for characters who have a space in their name. (thanks @JakeHumphries4!)
+- Changelog screen has no background.
+- Greenhouse and mint house voice chats have slightly incorrect bounds.
+- Items on the inn counter can be interacted with.
 - Sunflowers point the wrong way.
 - Grimoire "Actions Menu" button is positioned incorrectly at some resolutions.
 

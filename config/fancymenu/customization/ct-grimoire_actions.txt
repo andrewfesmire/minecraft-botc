@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 10
-  [loading_requirement_container_meta:fcdd7603-7e65-4b23-bf74-819da12c44f0-1771706873772] = [groups:][instances:]
+  [loading_requirement_container_meta:c2248eb7-75bf-4337-91b7-113630a9f7c8-1771789799422] = [groups:][instances:]
 }
 
 customization {
@@ -307,7 +307,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -635,7 +635,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -963,7 +963,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1291,7 +1291,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1619,7 +1619,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1947,7 +1947,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2275,7 +2275,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2603,7 +2603,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2931,7 +2931,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3259,7 +3259,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3587,7 +3587,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -3915,7 +3915,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4243,7 +4243,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4571,7 +4571,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -4899,7 +4899,7 @@ element {
   button_element_executable_block_identifier = 02aeb7b0-3162-4017-9371-4db48822388c-1753140079483
   [executable_action_instance:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392][action_type:disable_layout] = ct-grimoire_actions
   [executable_action_instance:d4d0b411-468e-4383-8682-653de3f62f35-1766352807252][action_type:disable_layout] = ct-grimoire_bluffs
-  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-p1_role_toggler
+  [executable_action_instance:95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161][action_type:enable_layout] = ct-role_toggler
   [executable_block:02aeb7b0-3162-4017-9371-4db48822388c-1753140079483][type:generic] = [executables:ad80f612-afb3-4f53-9b96-a5fa72e7265e-1766352772392;d4d0b411-468e-4383-8682-653de3f62f35-1766352807252;95a556ab-4c90-4762-95d1-ab6ee385c4fe-1766352827161;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false

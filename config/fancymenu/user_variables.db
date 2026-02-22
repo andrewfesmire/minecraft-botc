@@ -794,7 +794,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -1070,7 +1070,7 @@ variable {
 
 variable {
   name = bluff_1
-  value = none
+  value = poppy_grower
   reset_on_launch = false
 }
 
@@ -1250,7 +1250,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 8
+  value = 1
   reset_on_launch = false
 }
 
@@ -1471,6 +1471,12 @@ variable {
 }
 
 variable {
+  name = closed_warning
+  value = false
+  reset_on_launch = false
+}
+
+variable {
   name = p13_r1_icon
   value = none
   reset_on_launch = false
@@ -1562,7 +1568,7 @@ variable {
 
 variable {
   name = p1_role
-  value = none
+  value = yaggababble
   reset_on_launch = false
 }
 

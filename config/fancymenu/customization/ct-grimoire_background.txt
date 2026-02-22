@@ -41,8 +41,8 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
   close_screen_executable_block_identifier = e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106
-  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-p1_role_toggler_travelers
-  [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-p1_role_toggler
+  [executable_action_instance:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683][action_type:disable_layout] = ct-role_toggler_travelers
+  [executable_action_instance:43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856][action_type:disable_layout] = ct-role_toggler
   [executable_action_instance:598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618][action_type:disable_layout] = ct-grimoire_actions
   [executable_block:e40653d0-bbcb-4eee-8214-c99aba9bfc7e-1753146785106][type:generic] = [executables:0beee723-08ba-4ced-b3dc-e914bc3742ce-1753146786683;43733883-ebcd-42fd-bfbb-37c2db62e8c9-1753146807856;598e1784-9545-4b91-bc1c-1bb082c5dcb0-1766512151618;]
 }
@@ -986,7 +986,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:c723f56c-d427-45e2-b878-a5cdcbaba6b7-1752629630563][action_type:set_variable] = editing_player:11
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:74da69ad-00c1-40de-b75d-2c7c8cc1107f-1753143160238][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:054c6b8b-373a-4b64-b047-3f382610ceb2-1753143172710]
   [executable_action_instance:9ada1696-96b8-47fd-ac58-dd462efb3528-1753143162543][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:054c6b8b-373a-4b64-b047-3f382610ceb2-1753143172710][type:else] = [executables:9ada1696-96b8-47fd-ac58-dd462efb3528-1753143162543;]
@@ -1060,7 +1060,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:a5ef530b-4cf2-4260-9c2d-887d96a0d2a6-1752628804815][action_type:set_variable] = editing_player:12
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:00c1a8b1-5135-4e08-a12c-cbde44f2311b-1753140946326][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:fbfd323a-bfb6-41ca-97b4-aab00a4e3212-1753140987601]
   [executable_action_instance:60b53102-7248-4420-a7f7-16f7138d61df-1753141001007][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:fbfd323a-bfb6-41ca-97b4-aab00a4e3212-1753140987601][type:else] = [executables:60b53102-7248-4420-a7f7-16f7138d61df-1753141001007;]
@@ -1134,7 +1134,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:6ab922da-a013-4b50-aea5-f9b25d8eb8f6-1753142609568][action_type:set_variable] = editing_player:1
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:25844b61-bf96-42b5-a7ba-2c0ff1d731e8-1753142600137][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654]
   [executable_action_instance:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:3e7fad33-894e-4b5a-bf94-ade3dd175c6d-1753142643654][type:else] = [executables:7b898ae4-1888-4c21-83a0-05cfdc136810-1753142647452;]
@@ -1208,7 +1208,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:46b8f5d8-1d99-4c7a-a8cd-5e69ed599c3f-1752629714588][action_type:set_variable] = editing_player:2
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:34869aba-c594-40a7-88cd-4eebcb586bbe-1753142846470][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:977b23d3-2997-43e7-a867-cfa92dc0cfd8-1753142854201]
   [executable_action_instance:ec79aa1f-1f42-4716-bb20-b0ede36c7b2f-1753142855375][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:977b23d3-2997-43e7-a867-cfa92dc0cfd8-1753142854201][type:else] = [executables:ec79aa1f-1f42-4716-bb20-b0ede36c7b2f-1753142855375;]
@@ -1282,7 +1282,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:1f377bb7-6722-4b20-a4cf-1776117fedb1-1752629725215][action_type:set_variable] = editing_player:3
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:d2d0b84f-5a00-494a-9035-8c1be279f1af-1753142899568][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:2dd029a7-e364-4af1-9b1d-e35382fb0b95-1753142909990]
   [executable_action_instance:b06e522e-01e2-4728-89e6-f30326f9b5b1-1753142911584][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:2dd029a7-e364-4af1-9b1d-e35382fb0b95-1753142909990][type:else] = [executables:b06e522e-01e2-4728-89e6-f30326f9b5b1-1753142911584;]
@@ -1356,7 +1356,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:b684e394-eed5-449d-9f1a-c383091f38a0-1752629733456][action_type:set_variable] = editing_player:4
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:aa453f6d-bbfe-4809-b2ce-f6984c0f0453-1753142959185][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:0469323a-4062-4700-a9ab-003628efdb61-1753142960843]
   [executable_action_instance:63d5b7cd-52e8-486d-8114-9a4307f7eb10-1753142945180][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:0469323a-4062-4700-a9ab-003628efdb61-1753142960843][type:else] = [executables:63d5b7cd-52e8-486d-8114-9a4307f7eb10-1753142945180;]
@@ -1430,7 +1430,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:19f123a9-ba40-461c-8d7f-df1ec2f65860-1752629746619][action_type:set_variable] = editing_player:5
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:6e218c47-2867-42dd-a821-86afe7f6e46e-1753142983490][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:1fb07d9c-04b6-48ce-bd3a-e4c235b90f67-1753142987222]
   [executable_action_instance:df4dc93e-125b-42aa-819f-eea47b9b1c49-1753142988641][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:1fb07d9c-04b6-48ce-bd3a-e4c235b90f67-1753142987222][type:else] = [executables:df4dc93e-125b-42aa-819f-eea47b9b1c49-1753142988641;]
@@ -1504,7 +1504,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:53fc3a51-08bf-4fc8-8414-781380e976a7-1752629696027][action_type:set_variable] = editing_player:6
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285]
   [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285][type:else] = [executables:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199;]
@@ -1578,7 +1578,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:71d860c9-b9af-40dd-8945-e944bb0158b0-1752629685539][action_type:set_variable] = editing_player:7
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213]
   [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213][type:else] = [executables:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108;]
@@ -1652,7 +1652,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:685df338-6eab-47cc-bc8f-2fba2ecb1fcf-1752629673068][action_type:set_variable] = editing_player:8
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260]
   [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260][type:else] = [executables:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278;]
@@ -1726,7 +1726,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:591d449a-481d-4301-bfdd-aa92bc69a774-1752629664210][action_type:set_variable] = editing_player:9
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:c3d0e3a4-5c87-458a-991d-d5fa1ae2d891-1753143109277][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:0d44c226-b322-4aed-be81-48ced524750a-1753143111217]
   [executable_action_instance:f80f25ef-90b0-4644-8736-bf57e5549f51-1753143092005][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:0d44c226-b322-4aed-be81-48ced524750a-1753143111217][type:else] = [executables:f80f25ef-90b0-4644-8736-bf57e5549f51-1753143092005;]
@@ -1800,7 +1800,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:b00b6d78-f13c-48b2-864f-e874fd71d296-1752629646253][action_type:set_variable] = editing_player:10
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:a4726420-8400-4bab-b8e3-d92d18d0c0aa-1753143143797][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:017e54e6-c014-486f-be40-d406ac602d4c-1753143145562]
   [executable_action_instance:4fd42667-2f7c-4cd3-8f3a-5f9c1048bcb0-1753143119526][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:017e54e6-c014-486f-be40-d406ac602d4c-1753143145562][type:else] = [executables:4fd42667-2f7c-4cd3-8f3a-5f9c1048bcb0-1753143119526;]
@@ -10881,7 +10881,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:53fc3a51-08bf-4fc8-8414-781380e976a7-1752629696027][action_type:set_variable] = editing_player:15
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:fb4d825f-a2b8-4b55-8701-5af03c7348d3-1753143042492][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285]
   [executable_action_instance:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:057051c4-a072-4f3c-82bd-c6a6584befc2-1753143045285][type:else] = [executables:5f3ef348-d67b-424c-ad49-e1f1eb94e210-1753143022199;]
@@ -10955,7 +10955,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:71d860c9-b9af-40dd-8945-e944bb0158b0-1752629685539][action_type:set_variable] = editing_player:14
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:5a71f49e-6fb4-4aa0-be43-6026de6aa81e-1753143073565][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213]
   [executable_action_instance:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:6a0fa724-c911-425b-bbf7-e76a28340f45-1753143078213][type:else] = [executables:fda645c2-230f-4d59-9a7b-32eede363608-1753143058108;]
@@ -11029,7 +11029,7 @@ element {
 element {
   button_element_executable_block_identifier = 89241254-8940-409f-b47b-b2b0b6069604-1752204930249
   [executable_action_instance:685df338-6eab-47cc-bc8f-2fba2ecb1fcf-1752629673068][action_type:set_variable] = editing_player:13
-  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-p1_role_toggler
+  [executable_action_instance:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727][action_type:toggle_layout] = ct-role_toggler
   [executable_block:e99ce885-a201-4550-81ac-c329e35ac966-1753143210221][type:if] = [executables:033c67cc-bcad-468e-b341-64afa3ad0fa3-1752205012727;][appended:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260]
   [executable_action_instance:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278][action_type:toggle_layout] = ct-grimoire_actions
   [executable_block:f5ea460b-f136-439e-88db-fd991f37aa71-1753143224260][type:else] = [executables:1d00dc36-9c97-4646-9014-ae805056ab92-1753143217278;]

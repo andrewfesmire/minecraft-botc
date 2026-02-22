@@ -1,6 +1,7 @@
 scoreboard players set has_initialized game_data 0
 team leave @s
 fmvariable set storyteller false false
+fmvariable set closed_warning false false
 fmvariable set dev false false
 fmvariable get version
 tag @s remove storyteller
