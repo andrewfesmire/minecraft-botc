@@ -1,4 +1,5 @@
 execute if entity @a[tag=nominee] as @a run function ct:loop/player/voting
+execute if entity @a[tag=nominee] run function ct:loop/vote/update_counter
 
 execute if entity @a if entity @a[scores={id=1},tag=!expended_ghost,tag=dead] at @e[type=minecraft:item_display,tag=vote_marker,scores={id=1}] run particle minecraft:soul ~ ~-2 ~ 0.45 3 0.45 0 1
 execute if entity @a if entity @a[scores={id=2},tag=!expended_ghost,tag=dead] at @e[type=minecraft:item_display,tag=vote_marker,scores={id=2}] run particle minecraft:soul ~ ~-2 ~ 0.45 3 0.45 0 1

@@ -9,6 +9,14 @@ bossbar set day_time style progress
 bossbar set day_time max 300
 bossbar set day_time value 300
 
+bossbar add botc:votes "Votes:"
+bossbar set botc:votes color red
+bossbar set botc:votes players @a
+bossbar set botc:votes visible false
+bossbar set botc:votes style progress
+bossbar set botc:votes max 10
+bossbar set botc:votes value 10
+
 data modify storage ct:travelers list set value ["scapegoat","gunslinger","beggar","bureaucrat","thief","butcher","bone_collector","harlot","barista","deviant","apprentice","matron","voudon","judge","bishop","cacklejack","gangster","gnome"]
 
 team add 00_spectator

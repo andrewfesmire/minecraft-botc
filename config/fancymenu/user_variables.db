@@ -122,19 +122,19 @@ variable {
 
 variable {
   name = player_15
-  value = Nobody!
+  value = Alex
   reset_on_launch = false
 }
 
 variable {
   name = p5_role
-  value = none
+  value = empath
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = Nobody!
+  value = Steve5
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = Nobody!
+  value = steve4
   reset_on_launch = false
 }
 
@@ -164,7 +164,7 @@ variable {
 
 variable {
   name = p12_role
-  value = none
+  value = pixie
   reset_on_launch = false
 }
 
@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = p9_role
-  value = none
+  value = yaggababble
   reset_on_launch = false
 }
 
@@ -224,7 +224,7 @@ variable {
 
 variable {
   name = p3_role
-  value = none
+  value = sweetheart
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Nobody!
+  value = Steve2
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Nobody!
+  value = Alex4
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Nobody!
+  value = Alex5
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = Nobody!
+  value = alex7
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Nobody!
+  value = Steve6
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = Nobody!
+  value = steve3
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = Nobody!
+  value = alex3
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Nobody!
+  value = steve8
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Nobody!
+  value = Alex2
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Nobody!
+  value = Steve
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Nobody!
+  value = Alex6
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Nobody!
+  value = steve7
   reset_on_launch = false
 }
 
@@ -380,7 +380,7 @@ variable {
 
 variable {
   name = p14_role
-  value = none
+  value = lunatic
   reset_on_launch = false
 }
 
@@ -578,7 +578,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = Steve2
   reset_on_launch = false
 }
 
@@ -764,7 +764,7 @@ variable {
 
 variable {
   name = p4_role
-  value = none
+  value = grandmother
   reset_on_launch = false
 }
 
@@ -818,7 +818,7 @@ variable {
 
 variable {
   name = p6_role
-  value = none
+  value = harpy
   reset_on_launch = false
 }
 
@@ -842,7 +842,7 @@ variable {
 
 variable {
   name = p13_role
-  value = none
+  value = poisoner
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 3
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -962,13 +962,13 @@ variable {
 
 variable {
   name = p8_role
-  value = none
+  value = high_priestess
   reset_on_launch = false
 }
 
 variable {
   name = p15_role
-  value = none
+  value = balloonist
   reset_on_launch = false
 }
 
@@ -1142,7 +1142,7 @@ variable {
 
 variable {
   name = p11_role
-  value = none
+  value = dreamer
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:30
+  value = 23:15
   reset_on_launch = false
 }
 
@@ -1340,7 +1340,7 @@ variable {
 
 variable {
   name = p2_role
-  value = none
+  value = assassin
   reset_on_launch = false
 }
 
@@ -1460,7 +1460,7 @@ variable {
 
 variable {
   name = p10_role
-  value = none
+  value = nightwatchman
   reset_on_launch = false
 }
 
@@ -1538,7 +1538,7 @@ variable {
 
 variable {
   name = p7_role
-  value = none
+  value = chambermaid
   reset_on_launch = false
 }
 
@@ -1574,7 +1574,7 @@ variable {
 
 variable {
   name = p1_role
-  value = none
+  value = town_crier
   reset_on_launch = false
 }
 

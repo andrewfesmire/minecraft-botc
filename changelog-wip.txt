@@ -10,6 +10,7 @@ Changes and features:
 - Added a note on the pause screen warning that the pack is in an early stage of development.
 - Added a prompt to hover over your character icon to read the description.
 - Instead of big ugly banners, houses will now display the name and face of the player they belong to next to the entrance.
+- Whether or not a player is voting is now displayed at the top of the screen while a nomination is active.
 - Ghost vote sound can now be heard more clearly from a distance.
 - Houses now have carpets and beds that closely match their assigned color. (thanks @boofsly!)
 - Teleport evils to church button now has functionality.
@@ -22,6 +23,8 @@ Fixed bugs:
 - #50: Some commands that should be op-only are not.
 - #51: Colors in the Grimoire do not closely match house colors in-game.
 - #52: Wiki Links in the Script do not work for characters who have a space in their name. (thanks @JakeHumphries4!)
+- #59 Al-Hadikhia and Fearmonger announcements should send in chat.
+- #68: The inn's upper window can be parkoured into.
 - Changelog screen has no background.
 - Greenhouse and mint house voice chats have slightly incorrect bounds.
 - Items on the inn counter can be interacted with.
@@ -29,9 +32,3 @@ Fixed bugs:
 - Grimoire "Actions Menu" button is positioned incorrectly at some resolutions.
 - /tpallhome can be run while a game is not active.
 - Storyteller usernames stay invisible if the game is reset during the night phase.
-
-todo:
-- ST tp to house
-- block sounds not muted on night 1?
-- armor stands should be item displays
-- too many particles

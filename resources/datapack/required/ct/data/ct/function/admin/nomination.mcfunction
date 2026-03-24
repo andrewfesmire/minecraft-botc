@@ -2,7 +2,7 @@ tag @a[tag=nominee] remove nominee
 tag @s add nominee
 execute as @a at @s run playsound ct:clocktower.nominate voice @s ~ ~ ~
 item replace entity @a[tag=!expended_ghost,tag=!storyteller] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
-item replace entity @a[tag=storyteller] hotbar.5 with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]},custom_name=[{text:"Start Vote",color:"white",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
+item replace entity @a[tag=storyteller] hotbar.6 with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]},custom_name=[{text:"Start Vote",color:"white",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 tag @a[tag=!expended_ghost] add voting_no
 function ct:util/color_names
 tellraw @a [{"selector":"@a[tag=nominee]"},{"text":" has been nominated for execution.",color:white}]
@@ -29,3 +29,4 @@ execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id = @a[t
 rotate @e[tag=clock_arm,limit=1] facing entity @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target,limit=1]
 tag @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target] remove arm_target
 item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["vote_arm"]}]
+bossbar set botc:votes visible true

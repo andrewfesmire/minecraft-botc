@@ -46,3 +46,5 @@ tag @a[tag=not_legion] remove not_legion
 tag @a[tag=nominee] remove nominee
 tag @a[tag=voting_yes] remove voting_yes
 tag @a[tag=voting_no] remove voting_no
+bossbar set botc:votes visible false
+#data remove storage ct:votes list
