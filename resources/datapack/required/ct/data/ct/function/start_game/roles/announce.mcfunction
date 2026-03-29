@@ -26,7 +26,7 @@ execute as @a[scores={role=79..97}] run fmvariable set team_color false #1e14e7
 tag @a[scores={role=79..97}] add outsider
 
 execute as @a[scores={role=98..119}] run title @s subtitle {"text":"(Evil Minion)"}
-execute as @a[scores={role=98..119}] run fmvariable set team_color false #1e14ff4949e7
+execute as @a[scores={role=98..119}] run fmvariable set team_color false #ff4949
 tag @a[scores={role=98..119}] add minion
 
 execute as @a[scores={role=120..137}] run title @s subtitle {"text":"(Evil Demon)"}

@@ -68,7 +68,7 @@ variable {
 
 variable {
   name = dev
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -122,19 +122,19 @@ variable {
 
 variable {
   name = player_15
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = p5_role
-  value = empath
+  value = none
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = Steve5
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_14
-  value = steve4
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -164,7 +164,7 @@ variable {
 
 variable {
   name = p12_role
-  value = pixie
+  value = none
   reset_on_launch = false
 }
 
@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = p9_role
-  value = yaggababble
+  value = none
   reset_on_launch = false
 }
 
@@ -224,7 +224,7 @@ variable {
 
 variable {
   name = p3_role
-  value = sweetheart
+  value = none
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Steve2
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_11
-  value = Alex4
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -284,19 +284,19 @@ variable {
 
 variable {
   name = player_5
-  value = Alex5
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_12
-  value = alex7
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Steve6
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -308,43 +308,43 @@ variable {
 
 variable {
   name = player_3
-  value = steve3
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_10
-  value = alex3
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = steve8
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Alex2
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_8
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Alex6
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = steve7
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -380,7 +380,7 @@ variable {
 
 variable {
   name = p14_role
-  value = lunatic
+  value = none
   reset_on_launch = false
 }
 
@@ -578,7 +578,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Steve2
+  value = none
   reset_on_launch = false
 }
 
@@ -686,13 +686,13 @@ variable {
 
 variable {
   name = random_hint
-  value = 7
+  value = 6
   reset_on_launch = false
 }
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","devilsadvocate","yaggababble","kazali","vortox","legion","fanggu","barista","harlot","gunslinger","bonecollector","judge","djinn"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Order of the Holy Mold","bootlegger":["The Mathematician always learns if the Marionette's ability yielded false info or failed to work properly."]},"knight","noble","investigator","highpriestess","balloonist","general","snakecharmer","mathematician","towncrier","nightwatchman","fisherman","minstrel","magician","mutant","damsel","heretic","puzzlemaster","mezepheles","poisoner","cerenovus","marionette","baron","riot","leviathan","bootlegger"]
   reset_on_launch = false
 }
 
@@ -764,7 +764,7 @@ variable {
 
 variable {
   name = p4_role
-  value = grandmother
+  value = none
   reset_on_launch = false
 }
 
@@ -818,7 +818,7 @@ variable {
 
 variable {
   name = p6_role
-  value = harpy
+  value = none
   reset_on_launch = false
 }
 
@@ -842,7 +842,7 @@ variable {
 
 variable {
   name = p13_role
-  value = poisoner
+  value = none
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -962,13 +962,13 @@ variable {
 
 variable {
   name = p8_role
-  value = high_priestess
+  value = none
   reset_on_launch = false
 }
 
 variable {
   name = p15_role
-  value = balloonist
+  value = none
   reset_on_launch = false
 }
 
@@ -1124,7 +1124,7 @@ variable {
 
 variable {
   name = team_color
-  value = #1e14ff4949e7
+  value = #ff4949
   reset_on_launch = false
 }
 
@@ -1142,7 +1142,7 @@ variable {
 
 variable {
   name = p11_role
-  value = dreamer
+  value = none
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 23:15
+  value = 21:52
   reset_on_launch = false
 }
 
@@ -1340,7 +1340,7 @@ variable {
 
 variable {
   name = p2_role
-  value = assassin
+  value = none
   reset_on_launch = false
 }
 
@@ -1460,7 +1460,7 @@ variable {
 
 variable {
   name = p10_role
-  value = nightwatchman
+  value = none
   reset_on_launch = false
 }
 
@@ -1538,7 +1538,7 @@ variable {
 
 variable {
   name = p7_role
-  value = chambermaid
+  value = none
   reset_on_launch = false
 }
 
@@ -1574,7 +1574,7 @@ variable {
 
 variable {
   name = p1_role
-  value = town_crier
+  value = none
   reset_on_launch = false
 }
 
